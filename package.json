@@ -1,8 +1,8 @@
 {
-  "name": "vvui",
-  "version": "1.1.0",
+  "name": "aimm-ui",
+  "version": "0.1.20",
   "description": "This is a UI components for Vue 2.x ",
-  "author": "monkey-wang <2424880409@qq.com>",
+  "author": "marthers",
   "main": "packages/index.js",
   "files": [
     "dist/*",
