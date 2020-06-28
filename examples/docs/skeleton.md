@@ -56,17 +56,17 @@
 下面我们主要介绍其实现步骤，首先我们也是需要配置webpack-plugin，不过已经有实现好的[prerender-spa-plugin](https://github.com/chrisvfritz/prerender-spa-plugin)可用
 ```js
 var path = require('path')
-var PrerenderSpaPlugin = require('prerender-spa-plugin')
+// var PrerenderSpaPlugin = require('prerender-spa-plugin')
 
 module.exports = {
   // ...
   plugins: [
-    new PrerenderSpaPlugin(
-      // Absolute path to compiled SPA
-      path.join(__dirname, '../dist'),
-      // List of routes to prerender
-      ['/']
-    )
+    // new PrerenderSpaPlugin(
+    //   // Absolute path to compiled SPA
+    //   path.join(__dirname, '../dist'),
+    //   // List of routes to prerender
+    //   ['/']
+    // )
   ]
 }
 ```
